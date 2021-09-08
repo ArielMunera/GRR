@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'grr';
+  ngOnInit() {
+    document.location.href = 'https://youtu.be/dQw4w9WgXcQ';
+  }
 }
